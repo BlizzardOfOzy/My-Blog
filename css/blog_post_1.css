@@ -2,8 +2,6 @@
 
 .author{
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: repeat(2, 2fr);
     grid-template-areas: 
     "pic info"
     "desc desc";
