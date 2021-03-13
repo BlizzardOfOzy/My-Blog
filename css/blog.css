@@ -34,7 +34,7 @@ html {
     justify-content: center;
 }
 
-.footer_grid{
+.footer-grid{
     display: grid;
     grid-template-areas:
     "abt contact"
@@ -44,16 +44,16 @@ html {
 .about{
     grid-area: abt;
 }
-.contact_us{
+.contact-us{
     grid-area: contact;
 }
-.terms_of_use{
+.terms-of-use{
     grid-area: tou;
 }
 .privacy{
     grid-area: priv;
 }
-.footer_item{
+.footer-item{
     padding-right: 10px;
 }
 

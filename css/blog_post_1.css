@@ -6,15 +6,28 @@
     "pic info"
     "desc desc";
 }
+
 .author-picture{
     /* keep from hitting corner */
     padding-top: 10px;
     padding-left: 10px;
     grid-area: pic;
 }
+
 .author-info{
     grid-area: info;
 }
+
 .author-description{
     grid-area: desc;
+}
+
+.share-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.share-button > a > img{
+    width: 40px;
+    height: 40px;
 }
