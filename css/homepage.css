@@ -1,3 +1,5 @@
+@import "blog.css";
+
 .container{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -11,16 +13,4 @@
     "ct ct ct ct ct ct nv nv"
     "ft ft ft ft ft ft ft ft"
     "ft ft ft ft ft ft ft ft";
-}
-.header{
-    grid-area: hd;
-}
-.content{
-    grid-area: ct;
-}
-.navbar{
-    grid-area: nv;
-}
-.footer{
-    grid-area: ft;
 }

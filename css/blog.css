@@ -1,0 +1,15 @@
+.header{
+    grid-area: hd;
+}
+.content{
+    grid-area: ct;
+}
+.navbar{
+    grid-area: nv;
+}
+.author{
+    grid-area: at;
+}
+.footer{
+    grid-area: ft;
+}
