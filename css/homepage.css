@@ -1,1 +1,6 @@
 @import "blog.css";
+
+.content > a{
+    text-decoration: none;
+    color: black;
+}
