@@ -7,9 +7,10 @@
 .navbar{
     grid-area: nv;
 }
-.author{
-    grid-area: at;
-}
 .footer{
     grid-area: ft;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
