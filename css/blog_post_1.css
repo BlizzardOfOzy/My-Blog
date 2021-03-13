@@ -9,13 +9,12 @@
     "ct ct ct ct ct ct nv nv"
     "ct ct ct ct ct ct nv nv"
     "ct ct ct ct ct ct nv nv"
-    "at at at at at at nv nv"
-    "at at at at at at nv nv"
+    "ct ct ct ct ct ct nv nv"
+    "ct ct ct ct ct ct nv nv"
     "ft ft ft ft ft ft ft ft"
     "ft ft ft ft ft ft ft ft";
 }
 .author{
-    grid-area: at;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
