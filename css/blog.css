@@ -4,21 +4,16 @@ html {
 
 .container{
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 1fr);
     grid-template-areas:
     "hd hd hd hd hd hd hd hd"
     "ct ct ct ct ct ct ct nv"
-    "ct ct ct ct ct ct ct nv"
-    "ct ct ct ct ct ct ct nv"
-    "ct ct ct ct ct ct ct nv"
-    "ct ct ct ct ct ct ct nv"
-    "ft ft ft ft ft ft ft ft"
     "ft ft ft ft ft ft ft ft";
 }
+
 .header{
     grid-area: hd;
 }
+
 .content{
     grid-area: ct;
     display: flex;
@@ -26,9 +21,11 @@ html {
     align-items: left;
     justify-content: left;
 }
+
 .navbar{
     grid-area: nv;
 }
+
 .footer{
     grid-area: ft;
     display: flex;
@@ -36,6 +33,30 @@ html {
     align-items: center;
     justify-content: center;
 }
+
+.footer_grid{
+    display: grid;
+    grid-template-areas:
+    "abt contact"
+    "priv tou";
+}
+
+.about{
+    grid-area: abt;
+}
+.contact_us{
+    grid-area: contact;
+}
+.terms_of_use{
+    grid-area: tou;
+}
+.privacy{
+    grid-area: priv;
+}
+.footer_item{
+    padding-right: 10px;
+}
+
 .card{
     padding: 10px;
     border: 5px solid gray;
