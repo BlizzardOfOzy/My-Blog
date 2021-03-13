@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "ct ct ct ct ct ct nv nv"
+    "ct ct ct ct ct ct nv nv"
+    "ct ct ct ct ct ct nv nv"
+    "ct ct ct ct ct ct nv nv"
+    "ct ct ct ct ct ct nv nv"
+    "ft ft ft ft ft ft ft ft"
+    "ft ft ft ft ft ft ft ft";
+}
+.header{
+    grid-area: hd;
+}
+.content{
+    grid-area: ct;
+}
+.navbar{
+    grid-area: nv;
+}
+.footer{
+    grid-area: ft;
+}
