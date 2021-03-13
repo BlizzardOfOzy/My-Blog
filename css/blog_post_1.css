@@ -1,13 +1,13 @@
 @import "blog.css";
 
-.author{
+.author {
     display: grid;
     grid-template-areas: 
     "pic info"
     "desc desc";
 }
 
-.author-picture{
+.author-picture {
     /* keep from hitting corner */
     padding-top: 10px;
     padding-left: 10px;
@@ -18,7 +18,7 @@
     grid-area: info;
 }
 
-.author-description{
+.author-description {
     grid-area: desc;
 }
 
@@ -27,7 +27,7 @@
     flex-direction: row;
 }
 
-.share-button > a > img{
+.share-button > a > img {
     width: 40px;
     height: 40px;
 }

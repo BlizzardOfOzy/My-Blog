@@ -22,11 +22,11 @@ html {
     justify-content: left;
 }
 
-.navbar{
+.navbar {
     grid-area: nv;
 }
 
-.footer{
+.footer {
     grid-area: ft;
     display: flex;
     flex-direction: column;
@@ -34,30 +34,30 @@ html {
     justify-content: center;
 }
 
-.footer-grid{
+.footer-grid {
     display: grid;
     grid-template-areas:
     "abt contact"
     "priv tou";
 }
 
-.about{
+.about {
     grid-area: abt;
 }
-.contact-us{
+.contact-us {
     grid-area: contact;
 }
-.terms-of-use{
+.terms-of-use {
     grid-area: tou;
 }
-.privacy{
+.privacy {
     grid-area: priv;
 }
-.footer-item{
+.footer-item {
     padding-right: 10px;
 }
 
-.card{
+.card {
     padding: 10px;
     border: 5px solid gray;
     border-radius: 25px;

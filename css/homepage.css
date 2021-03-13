@@ -1,6 +1,6 @@
 @import "blog.css";
 
-.content > a{
+.content > a {
     text-decoration: none;
     color: black;
 }
