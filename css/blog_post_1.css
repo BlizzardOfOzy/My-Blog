@@ -1,19 +1,5 @@
 @import "blog.css";
 
-.container{
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    grid-template-areas:
-    "hd hd hd hd hd hd hd hd"
-    "ct ct ct ct ct ct nv nv"
-    "ct ct ct ct ct ct nv nv"
-    "ct ct ct ct ct ct nv nv"
-    "ct ct ct ct ct ct nv nv"
-    "ct ct ct ct ct ct nv nv"
-    "ft ft ft ft ft ft ft ft"
-    "ft ft ft ft ft ft ft ft";
-}
 .author{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -23,6 +9,9 @@
     "desc desc";
 }
 .author-picture{
+    /* keep from hitting corner */
+    padding-top: 10px;
+    padding-left: 10px;
     grid-area: pic;
 }
 .author-info{
