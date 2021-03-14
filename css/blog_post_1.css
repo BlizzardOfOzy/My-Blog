@@ -3,8 +3,18 @@
 .author {
     display: grid;
     grid-template-areas: 
-    "pic info"
-    "desc desc";
+    "pic"
+    "info"
+    "desc";
+}
+
+@media (min-width: 600px) {
+    .author {
+        display: grid;
+        grid-template-areas: 
+        "pic info"
+        "desc desc";
+    }
 }
 
 .author-picture {
