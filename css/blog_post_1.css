@@ -21,7 +21,11 @@
     /* keep from hitting corner */
     padding-top: 10px;
     padding-left: 10px;
-    grid-area: pic;
+}
+
+.author-picture > img {
+    width: 50%;
+    height: auto;
 }
 
 .author-info{

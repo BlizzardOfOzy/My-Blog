@@ -25,6 +25,11 @@ html {
     grid-area: hd;
 }
 
+.header > a > img {
+    width: 60%;
+    height: auto;
+}
+
 .content{
     grid-area: ct;
     display: flex;
